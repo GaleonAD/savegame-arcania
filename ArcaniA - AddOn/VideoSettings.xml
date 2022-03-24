@@ -1,0 +1,44 @@
+<AttributeTable >
+	<Attribute name="none" type="ulong" value="2" />
+	<Attribute name="adapter" type="string" value="" />
+	<Attribute name="resolution_x" type="ulong" value="1920" />
+	<Attribute name="resolution_y" type="ulong" value="1080" />
+	<Attribute name="fullscreen" type="bool" value="true" />
+	<Attribute name="postprocessing" type="bool" value="true" />
+	<Attribute name="tonemap" type="ulong" value="0" />
+	<Attribute name="shadows" type="bool" value="true" />
+	<Attribute name="shadow_resolution_index" type="ulong" value="1" />
+	<Attribute name="brightness" type="float" value="0.500000" />
+	<Attribute name="contrast" type="float" value="0.500000" />
+	<Attribute name="saturation" type="float" value="0.500000" />
+	<Attribute name="performance_preset" type="ulong" value="0" />
+	<Attribute name="ambient_occlusion" type="bool" value="true" />
+	<Attribute name="ambient_occlusion_blur" type="bool" value="true" />
+	<Attribute name="ambient_occlusion_only" type="bool" value="false" />
+	<Attribute name="sun_glares" type="bool" value="true" />
+	<Attribute name="detail_normalmap" type="bool" value="true" />
+	<Attribute name="rim_light" type="bool" value="true" />
+	<Attribute name="primary_light" type="bool" value="true" />
+	<Attribute name="secondary_light" type="bool" value="true" />
+	<Attribute name="character" type="bool" value="true" />
+	<Attribute name="skin_shader" type="bool" value="true" />
+	<Attribute name="disapearing_foliage" type="bool" value="true" />
+	<Attribute name="brightness_min" type="float" value="-0.500000" />
+	<Attribute name="brightness_max" type="float" value="0.500000" />
+	<Attribute name="particle_detail_level" type="ulong" value="1" />
+	<Attribute name="gamma" type="float" value="0.500000" />
+	<Attribute name="texture_detail" type="ulong" value="0" />
+	<Attribute name="building_detail" type="ulong" value="0" />
+	<Attribute name="character_detail" type="ulong" value="0" />
+	<Attribute name="lighting_detail" type="ulong" value="0" />
+	<Attribute name="ssao_detail" type="ulong" value="0" />
+	<Attribute name="dynamic_light_shadows" type="ulong" value="0" />
+	<Attribute name="shadow_objects" type="ulong" value="0" />
+	<Attribute name="shadow_objects_main" type="ulong" value="0" />
+	<Attribute name="exposure_control" type="bool" value="true" />
+	<Attribute name="view_distance" type="float" value="1.000000" />
+	<Attribute name="sky_detail" type="ulong" value="0" />
+	<Advanced >
+		<Attribute name="clear_commandbuffer_on_render" type="bool" value="false" />
+	</Advanced>
+</AttributeTable>

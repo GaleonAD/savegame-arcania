@@ -1,0 +1,14 @@
+<AttributeTable >
+	<Attribute name="[NONE]" type="bool" value="false" />
+	<Attribute name="show_minimap" type="bool" value="true" />
+	<Attribute name="show_quest_markers" type="bool" value="true" />
+	<Attribute name="show_timed_strike_helpers" type="bool" value="true" />
+	<Attribute name="show_system_messages" type="bool" value="true" />
+	<Attribute name="show_enemy_captions" type="bool" value="true" />
+	<Attribute name="show_health_bars" type="bool" value="true" />
+	<Attribute name="show_overhead_feedback" type="bool" value="false" />
+	<Attribute name="show_highlights" type="bool" value="true" />
+	<Attribute name="show_feedback_bar" type="bool" value="true" />
+	<Attribute name="allow_non_gameplay_actions" type="bool" value="false" />
+	<Attribute name="difficulty" type="ulong" value="1" />
+</AttributeTable>

@@ -1,0 +1,11 @@
+<AttributeTable >
+	<Attribute name="sensitivity_pc" type="vector_2d" x="0.500000" y="0.500000" />
+	<Attribute name="sensitivity_xbox" type="vector_2d" x="0.500000" y="0.500000" />
+	<Attribute name="sensitivity_factor_pc" type="vector_2d" x="0.012000" y="0.012000" />
+	<Attribute name="sensitivity_factor_xbox" type="vector_2d" x="3.000000" y="1.800000" />
+	<Attribute name="invert_mouse_y" type="bool" value="false" />
+	<Attribute name="invert_gamepad_y" type="bool" value="false" />
+	<Attribute name="invert_gamepad_x" type="bool" value="false" />
+	<Attribute name="swap_gamepad_sticks" type="bool" value="false" />
+	<Attribute name="forcefeedback_enabled" type="bool" value="true" />
+</AttributeTable>

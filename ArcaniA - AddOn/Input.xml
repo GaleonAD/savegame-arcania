@@ -1,0 +1,419 @@
+<Inputs >
+	<Input command="move forward" >
+		<Key code="17" />
+		<Activation type="active" />
+	</Input>
+	<Input command="move forward" set="1" >
+		<Key code="200" />
+		<Activation type="active" />
+	</Input>
+	<Input command="move backward" >
+		<Key code="31" />
+		<Activation type="active" />
+	</Input>
+	<Input command="move backward" set="1" >
+		<Key code="208" />
+		<Activation type="active" />
+	</Input>
+	<Input command="move left" >
+		<Key code="30" />
+		<Activation type="active" />
+	</Input>
+	<Input command="move left" set="1" >
+		<Key code="203" />
+		<Activation type="active" />
+	</Input>
+	<Input command="move right" >
+		<Key code="32" />
+		<Activation type="active" />
+	</Input>
+	<Input command="move right" set="1" >
+		<Key code="205" />
+		<Activation type="active" />
+	</Input>
+	<Input command="jump" >
+		<Key code="57" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="jump" >
+		<Gamepad name="b" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="jump height" >
+		<Key code="57" />
+		<Activation type="active" />
+	</Input>
+	<Input command="jump height" >
+		<Gamepad name="b" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="active" />
+	</Input>
+	<Input command="sneak" set="1" >
+		<Key code="29" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="sneak" >
+		<Key code="157" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="sneak" >
+		<Gamepad name="left thumb" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="roll" >
+		<Key code="21" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="inventory" >
+		<Key code="23" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="quest log" >
+		<Key code="38" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="quest log show rewards" >
+		<Gamepad name="y" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="quest log hide rewards" >
+		<Gamepad name="y" />
+		<Activation type="first inactive" />
+	</Input>
+	<Input command="skills" >
+		<Key code="37" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="map" >
+		<Key code="50" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="place map marker" >
+		<Gamepad name="x" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="quick load" >
+		<Key code="67" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="quick save" >
+		<Key code="63" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="aim holster weapon" >
+		<Key active="false" code="29" />
+		<Key code="33" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="zoom" >
+		<Key code="44" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="zoom" >
+		<Gamepad name="right thumb" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="lock target" >
+		<Gamepad name="left trigger" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="active" />
+	</Input>
+	<Input command="ingame menu" >
+		<Key code="1" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="ingame menu" >
+		<Gamepad name="back" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="handcraft" >
+		<Key code="46" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="selection wheel" >
+		<Gamepad name="start" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="prepare attack" >
+		<Mouse name="left" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="hold attack" >
+		<Mouse name="left" />
+		<Activation type="active" />
+	</Input>
+	<Input command="attack" >
+		<Mouse name="left" />
+		<Activation type="first inactive" />
+	</Input>
+	<Input command="start block" >
+		<Mouse name="right" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="start block" >
+		<Gamepad name="y" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="end block" >
+		<Mouse name="right" />
+		<Activation type="first inactive" />
+	</Input>
+	<Input command="end block" >
+		<Gamepad name="y" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first inactive" />
+	</Input>
+	<Input command="hold block" >
+		<Mouse name="right" />
+		<Activation type="active" />
+	</Input>
+	<Input command="hold block" >
+		<Gamepad name="y" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="active" />
+	</Input>
+	<Input command="prepare attack melee" >
+		<Gamepad name="x" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="hold attack melee" >
+		<Gamepad name="x" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="active" />
+	</Input>
+	<Input command="attack melee" >
+		<Gamepad name="x" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first inactive" />
+	</Input>
+	<Input command="prepare attack ranged" >
+		<Gamepad name="right trigger" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="hold attack ranged" >
+		<Gamepad name="right trigger" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="active" />
+	</Input>
+	<Input command="attack ranged" >
+		<Gamepad name="right trigger" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first inactive" />
+	</Input>
+	<Input command="prepare attack magic" >
+		<Gamepad name="right shoulder" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="hold attack magic" >
+		<Gamepad name="right shoulder" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="active" />
+	</Input>
+	<Input command="attack magic" >
+		<Gamepad name="right shoulder" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first inactive" />
+	</Input>
+	<Input command="action" >
+		<Key code="18" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="action" >
+		<Gamepad name="a" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="holster" >
+		<Gamepad name="a" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="active" />
+	</Input>
+	<Input command="activate item melee" >
+		<Key code="2" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="activate item ranged" >
+		<Key code="3" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="activate item 1" >
+		<Key code="4" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="activate item 1" >
+		<Gamepad name="up" />
+		<Gamepad active="false" name="down" />
+		<Gamepad active="false" name="left" />
+		<Gamepad active="false" name="right" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="activate item 2" >
+		<Key code="5" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="activate item 2" >
+		<Gamepad name="right" />
+		<Gamepad active="false" name="down" />
+		<Gamepad active="false" name="left" />
+		<Gamepad active="false" name="up" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="activate item 3" >
+		<Key code="6" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="activate item 3" >
+		<Gamepad name="down" />
+		<Gamepad active="false" name="up" />
+		<Gamepad active="false" name="left" />
+		<Gamepad active="false" name="right" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="activate item 4" >
+		<Key code="7" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="activate item 4" >
+		<Gamepad name="left" />
+		<Gamepad active="false" name="down" />
+		<Gamepad active="false" name="up" />
+		<Gamepad active="false" name="right" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="activate item 5" >
+		<Key code="8" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="activate item 5" >
+		<Gamepad name="up" />
+		<Gamepad active="false" name="down" />
+		<Gamepad active="false" name="left" />
+		<Gamepad active="false" name="right" />
+		<Gamepad name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="activate item 6" >
+		<Key code="9" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="activate item 6" >
+		<Gamepad name="right" />
+		<Gamepad active="false" name="down" />
+		<Gamepad active="false" name="left" />
+		<Gamepad active="false" name="up" />
+		<Gamepad name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="activate item 7" >
+		<Key code="10" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="activate item 7" >
+		<Gamepad name="down" />
+		<Gamepad active="false" name="up" />
+		<Gamepad active="false" name="left" />
+		<Gamepad active="false" name="right" />
+		<Gamepad name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="activate item 8" >
+		<Key code="11" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="activate item 8" >
+		<Gamepad name="left" />
+		<Gamepad active="false" name="down" />
+		<Gamepad active="false" name="up" />
+		<Gamepad active="false" name="right" />
+		<Gamepad name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="quickbar display more" >
+		<Gamepad name="left shoulder" />
+		<Activation type="active" />
+	</Input>
+	<Input command="quickbar display more" >
+		<Gamepad name="left shoulder" />
+		<Activation type="active" />
+	</Input>
+	<Input command="screenshot" >
+		<Key code="183" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="screenshot" >
+		<Key code="183" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="bigscreenshot" >
+		<Key code="183" />
+		<Key code="42" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="skip dialog speech" >
+		<Gamepad name="y" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="skip dialog speech" >
+		<Key code="1" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="skip dialog speech" >
+		<Key code="57" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="skip dialog speech" >
+		<Mouse name="left" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="center camera" >
+		<Gamepad name="left trigger" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="trade" >
+		<Gamepad name="x" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="point of interest access" >
+		<Key code="20" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="point of interest access" >
+		<Gamepad active="false" name="a" />
+		<Gamepad active="false" name="b" />
+		<Gamepad name="right thumb" />
+		<Gamepad active="false" name="y" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first active" />
+	</Input>
+	<Input command="point of interest leave" >
+		<Key code="20" />
+		<Activation type="first inactive" />
+	</Input>
+	<Input command="point of interest leave" >
+		<Gamepad active="false" name="a" />
+		<Gamepad active="false" name="b" />
+		<Gamepad name="right thumb" />
+		<Gamepad active="false" name="y" />
+		<Gamepad active="false" name="left shoulder" />
+		<Activation type="first inactive" />
+	</Input>
+	<Input command="loot all" >
+		<Key code="18" />
+		<Activation type="first active" />
+	</Input>
+</Inputs>

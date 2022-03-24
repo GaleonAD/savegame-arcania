@@ -1,0 +1,9 @@
+<AttributeTable >
+	<Attribute name="global_volume" type="float" value="1.000000" />
+	<Attribute name="sound_FX_volume" type="float" value="1.000000" />
+	<Attribute name="speech_volume" type="float" value="1.000000" />
+	<Attribute name="music_volume" type="float" value="1.000000" />
+	<Attribute name="cutscene_volume" type="float" value="1.000000" />
+	<Attribute name="ambience_volume" type="float" value="1.000000" />
+	<Attribute name="subtitles" type="bool" value="true" />
+</AttributeTable>
